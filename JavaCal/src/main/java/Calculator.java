@@ -1,15 +1,20 @@
 import java.util.*;
 import java.util.Scanner;
 //Reference:https://stackoverflow.com/questions/14675815/basic-calculator-in-java */
+
 public class Calculator {
+
+
     public static void main(String[] args) {
+
         System.out.println("Enter first and second number:");
         Scanner inp = new Scanner(System.in);
         int num1, num2;
         num1 = inp.nextInt();
         num2 = inp.nextInt();
         int ans;
-        System.out.println("Enter your selection: 1 for Addition, 2 for substraction 3 for Multiplication and 4 for division:");
+        System.out.println("Enter your selection: \n1 for Addition \n2 for substraction \n3 for Multiplication  \n4 for division \n");
+
         int choose;
         choose = inp.nextInt();
         switch (choose) {
@@ -29,7 +34,6 @@ public class Calculator {
                 System.out.println("Illigal Operation");
         }
     }
-
     public static int add(int x, int y) {
         int result = x + y;
         return result;
