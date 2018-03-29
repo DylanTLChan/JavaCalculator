@@ -1,6 +1,8 @@
+package main.java;
+
 import java.util.*;
 import java.util.Scanner;
-//Reference:https://stackoverflow.com/questions/14675815/basic-calculator-in-java */
+//Original Code Reference:https://stackoverflow.com/questions/14675815/basic-calculator-in-java */
 
 public class Calculator {
 
