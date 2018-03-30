@@ -33,7 +33,7 @@ public class Calculator {
                 System.out.println(div(num1, num2));
                 break;
             default:
-                System.out.println("Illigal Operation");
+                System.out.println("Illegal Operation");
         }
     }
     public static int add(int x, int y) {
