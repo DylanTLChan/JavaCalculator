@@ -14,7 +14,7 @@ public class Calculator {
         int num1, num2;
         num1 = inp.nextInt();
         num2 = inp.nextInt();
-        int ans;
+
         System.out.println("Enter your selection: \n1 for Addition \n2 for Subtraction \n3 for Multiplication  \n4 for division \n");
 
         int choose;
