@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class Calculator {
 
-
     public static void main(String[] args) {
 
         System.out.println("Enter first and second number:");
@@ -33,7 +32,8 @@ public class Calculator {
                 System.out.println(div(num1, num2));
                 break;
             default:
-                System.out.println("Illegal Operation");
+                System.out.println(choose + " is an Illegal Operation");
+
         }
     }
     public static int add(int x, int y) {
