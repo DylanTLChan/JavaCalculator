@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.Scanner;
 //Original Code Reference:https://stackoverflow.com/questions/14675815/basic-calculator-in-java */
 
-//This is a Calculator program
+//This is a Calculator program.
 public class Calculator {
 
     public static void main(String[] args) {
