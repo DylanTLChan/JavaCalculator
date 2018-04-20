@@ -1,5 +1,5 @@
 package main.java;
-
+//This is a test class for Calculator
 import org.junit.Test;
 
 import static org.junit.Assert.*;
