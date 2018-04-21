@@ -12,7 +12,7 @@ public class CalculatorTest {
     {
         int num1 = 2;
         int num2 = 3;
-        assertEquals(70,cal.add(num1,num2));
+        assertEquals(5,cal.add(num1,num2));
     }
 
     @Test
@@ -20,7 +20,7 @@ public class CalculatorTest {
 
         int num1=20;
         int num2=5;
-        assertEquals(14,cal.sub(num1,num2));
+        assertEquals(15,cal.sub(num1,num2));
     }
 
     @Test
