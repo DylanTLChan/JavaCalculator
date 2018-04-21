@@ -20,7 +20,7 @@ public class CalculatorTest {
 
         int num1=20;
         int num2=5;
-        assertEquals(13,cal.sub(num1,num2));
+        assertEquals(14,cal.sub(num1,num2));
     }
 
     @Test
