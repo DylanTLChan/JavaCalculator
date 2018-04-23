@@ -1,5 +1,6 @@
 package main.java;
 //This is a test class for Calculator.
+//Tests for Add.Sub,Div and Multi.
 import org.junit.Test;
 
 import static org.junit.Assert.*;
